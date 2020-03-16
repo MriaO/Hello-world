@@ -1,3 +1,8 @@
-# Hello-world
-First code
-I am absolutely beginner, But I am very interested of coding.
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    string answer=get_string("What is your name?\n");
+    printf("Hello, %s\n", answer);
+}
